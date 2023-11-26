@@ -32,11 +32,10 @@ palavras = ["jogador", "tabuleiro", "vitoria", "derrota", "empate", "linha", "co
 
 
 palavra = choice(palavras)
-palavra = 'fim'
 tam_palavra = len(palavra)
 palavra_display = ['_' for x in range(tam_palavra)]
 over_count = tam_palavra
-vidas = 1
+vidas = 5
 over = False
 
 print(f"{' BEM VINDO ':-^30}\n")
